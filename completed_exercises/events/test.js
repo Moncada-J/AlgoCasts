@@ -4,7 +4,7 @@ test('Events can be registered then triggered', () => {
   const events = new Events();
 
   const cb1 = jest.fn();
-
+``
   events.on('click', cb1);
   events.trigger('click');
 
